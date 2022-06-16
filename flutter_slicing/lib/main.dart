@@ -5,6 +5,8 @@ import 'package:flutter_slicing/pages/started_screen.dart';
 import 'package:flutter_slicing/pages/lat_started_screen.dart';
 import 'package:flutter_slicing/pages/first_login.dart';
 import 'package:flutter_slicing/pages/lat_login.dart';
+import 'package:flutter_slicing/pages/first_empty.dart';
+import 'package:flutter_slicing/pages/lat_empty.dart';
 
 void main() => runApp(MyApp());
 
@@ -13,7 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: LatLogin(),
+      home: LatEmpty(),
     );
   }
 }

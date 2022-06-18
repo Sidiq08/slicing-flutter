@@ -7,6 +7,10 @@ import 'package:flutter_slicing/pages/first_login.dart';
 import 'package:flutter_slicing/pages/lat_login.dart';
 import 'package:flutter_slicing/pages/first_empty.dart';
 import 'package:flutter_slicing/pages/lat_empty.dart';
+import 'package:flutter_slicing/pages/first_rating.dart';
+import 'package:flutter_slicing/pages/first_pricing.dart';
+import 'package:flutter_slicing/pages/lat_rating.dart';
+import 'package:flutter_slicing/pages/lat_pricing.dart';
 
 void main() => runApp(MyApp());
 
@@ -15,7 +19,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: LatEmpty(),
+      home: LatPricing(),
     );
   }
 }
